@@ -1,0 +1,11 @@
+.board {
+  padding: 2rem;
+  text-align: center;
+}
+
+.board p {
+  text-transform: capitalize;
+}
+.board > * {
+  margin-bottom: 3rem;
+}

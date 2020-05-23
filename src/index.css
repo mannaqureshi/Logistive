@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap");
+
+/* ant desing */
+.siq_bR {
+  bottom: 5% !important;
+  right: 2% !important;
+}
+.zsiq_floatmain.zsiq_theme1 .zsiq_flt_rel {
+  background-color: #ea7704 !important;
+}
+
+#titlediv.zsiq_cnt {
+  display: none;
+}
+
+/* custom css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+div a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+div p {
+  margin-bottom: 0px;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+.page {
+  padding: 2rem 0rem;
+}
+.page > * {
+  margin-bottom: 2rem;
+}
+.bg-primary {
+  background: -webkit-linear-gradient(
+    rgba(56, 65, 242, 1),
+    rgba(70, 138, 245, 1)
+  );
+}
+.bg-secondary {
+  background: linear-gradient(
+    to right,
+    rgba(239, 151, 25, 1),
+    rgba(255, 81, 47, 1)
+  );
+}
+
+.tc-primary {
+  background: -webkit-linear-gradient(
+    rgba(56, 65, 242, 1),
+    rgba(70, 138, 245, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tc-secondary {
+  background: linear-gradient(
+    to right,
+    rgba(239, 151, 25, 1),
+    rgba(255, 81, 47, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.black {
+  color: #000;
+}
+
+.grey {
+  color: #aaaaaa;
+}
+.whhite {
+  color: #fff;
+}
+p.heading-large {
+  font-size: 6rem;
+  font-weight: 900;
+}
+p.heading-semi-large {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+p.heading-primary {
+  font-size: 4rem;
+  font-weight: 900;
+}
+p.heading-secondary {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+p.text-primary {
+  font-size: 2rem;
+}
+p.text-secondary {
+  font-size: 1.2rem;
+}
+.container-fluid {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  display: block;
+  max-width: 90%;
+  width: 90%;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+.shadow {
+  -webkit-box-shadow: 6px 7px 25px -12px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 6px 7px 25px -12px rgba(0, 0, 0, 0.35);
+  box-shadow: 6px 7px 25px -12px rgba(0, 0, 0, 0.35);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-fluid {
+    max-width: 100%;
+    width: 100%;
+  }
+  .container {
+    max-width: 95%;
+    width: 95%;
+  }
+  .page {
+    padding: 1rem 0rem;
+  }
+
+  p.heading-large {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  p.heading-semi-large {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  p.heading-primary {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  p.heading-secondary {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  p.text-primary {
+    font-size: 1.4rem;
+  }
+  p.text-secondary {
+    font-size: 1rem;
+  }
+
+  ion-icon {
+    font-size: 3rem;
+  }
+}

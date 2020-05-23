@@ -1,0 +1,40 @@
+.custom-button,
+input[type="submit"] {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 60px;
+  border: 1px solid #ea7704;
+  background: linear-gradient(
+    to right,
+    rgba(239, 151, 25, 1),
+    rgba(255, 81, 47, 1)
+  );
+  color: #fff;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background: #fff;
+  color: #ea7704;
+  border: 1px solid #ea7704;
+}
+
+.whatsapp {
+  border: 1px solid #25d366;
+  background: #25d366;
+  color: fff;
+}
+
+.whatsapp:hover {
+  border: 1px solid #25d366;
+  background-color: #fff;
+  color: #25d366;
+}
+
+.whatsapp ion-icon {
+  font-size: 2rem;
+}
